@@ -1,19 +1,13 @@
 /* Main page settings */
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
 }
-body {
-    height: 100%;
-    width: 100%;
-}
 
 /* header section rules */
-
 
 header {
     display: flex;
@@ -124,16 +118,16 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 16.6%;
-    width: 100%;
     padding: 1% 10% 1% 10%;
     /* debug rules */
+    width: 100%;
+    height: 16.6%;
     background-color: rgb(36, 36, 36);
 }
 .end_info {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     /* debug rules */
     width: 100%;
@@ -144,20 +138,20 @@ footer {
     /* debug rules */
     height: 300px;
     background-color: rgb(255, 152, 224);
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px dotted rgb(0, 0, 0);
 }
 .second_col, .third_col, .fourth_col, .fifth_col {
     width: 17.5%;
     /* debug rules */
     height: 300px ;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px dotted rgb(255, 255, 255);
     background-color: rgb(93, 209, 170);
 }
 .footer_nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1% 10% 1% 10%;
+    margin: 1% 0 1% 0 ;
     /* debug rules */
     width: 100%;
     height: 100%;
@@ -168,6 +162,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 1% 0 1% 0;
     /* debug rules */
     background-color: aquamarine;
     width: 100%;
@@ -175,6 +170,6 @@ footer {
 }
 button, .end_logo {
     background-color: rgb(255, 152, 224);
-    border: 1px solid black;
+    border: 1px dotted black;
     font-size: small;
 }
